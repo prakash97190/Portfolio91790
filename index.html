@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header>
+        <nav>
+            <h1 class="logo">MyPortfolio</h1>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about" class="active">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ===== HOME SECTION ===== -->
+    <section id="home" class="section">
+        <h2>Hello, I'm <span>Your Name</span> 👋</h2>
+        <p>Front-End Developer | Web Designer</p>
+        <a href="#projects" class="btn">View My Work</a>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>I am a passionate web developer with skills in HTML, CSS, and JavaScript. I love creating responsive and user-friendly websites.</p>
+    </section>
+
+    <!-- ===== PROJECTS SECTION ===== -->
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Weather App</h3>
+                <p>A simple app to check weather using OpenWeather API.</p>
+            </div>
+            <div class="project-card">
+                <h3>To-Do List</h3>
+                <p>Organize tasks with a clean and simple to-do list.</p>
+            </div>
+            <div class="project-card">
+                <h3>Calculator</h3>
+                <p>Perform basic arithmetic calculations.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Your Name. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
